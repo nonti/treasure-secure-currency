@@ -13,11 +13,33 @@
   color: azure;
 }
 
-.btn {
+.btn-signout {
   background: transparent;
-  border: 2px solid azure;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
   color: azure;
   border-radius: 5px;
+  margin: 10px 20px;
+  height: 38px;
+  width: 100px;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.btn-wallet-info {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  color: azure;
+  border-radius: 5px;
+  margin: 10px 20px;
+  height: 40px;
+  width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.btn-signout {
+  padding: 0 10px;
 }

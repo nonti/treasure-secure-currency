@@ -55,8 +55,8 @@ const Profile = () => {
         <p>Loading...</p>
       )}
               </p>
-                <Link to="/wallet" className="btn btn-primary">View Wallet Info</Link>
-                <button onClick={handleSignOut}>Sign out</button>
+                <Link to="/wallet" className="btn-wallet-info">View Wallet Info</Link>
+                <button className='btn-signout' onClick={handleSignOut}>Sign out</button>
           </div>
         </div>
       </div>
