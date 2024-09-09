@@ -24,12 +24,10 @@
 .close-btn {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #ffffff04;
-  color: #da750200;
+  background-color: #29272749;
+  color: hsl(40, 13%, 95%);
   border: none;
   cursor: pointer;
 }
 
-.close-btn:hover {
-  background-color: #fff;
-}
+
