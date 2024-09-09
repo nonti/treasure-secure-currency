@@ -14,7 +14,7 @@ const Contact = () => {
     message:''
   });
   
-  const [status, setStatus] = useState("");
+  // const [status, setStatus] = useState("");
   const [showModal, setShowModal] = useState(false);  // State to control modal visibility
 
   const handleChange = (e) => {
@@ -36,7 +36,7 @@ const Contact = () => {
         message: contactFormData.message,
         timestamp: new Date()
       });
-      setStatus("Form submitted successfully!");
+      // setStatus("Form submitted successfully!");
       setShowModal(true);  // Show the modal on success
       setContactFormData({
         company: "",
@@ -46,7 +46,7 @@ const Contact = () => {
       });
     } catch (error) {
       console.error("Error adding document: ", error);
-      setStatus("Error submitting form");
+      // setStatus("Error submitting form");
     }
   };
 
