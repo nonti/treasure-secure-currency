@@ -1,0 +1,23 @@
+.profile-info {
+  margin: 80px auto;
+}
+
+.card {
+  width: 800px;
+  background: transparent;
+  border-radius: 2px solid grey;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(30px);
+  margin: 250px auto;
+  color: azure;
+}
+
+.btn {
+  background: transparent;
+  border: 2px solid azure;
+  color: azure;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

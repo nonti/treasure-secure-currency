@@ -1,0 +1,9 @@
+.blur-text {
+  filter: blur(5px);  /* Initial blur */
+  cursor: pointer;    /* Add pointer cursor to indicate it's clickable */
+  transition: filter 0.3s ease;  /* Smooth transition when blur is removed */
+}
+
+.blur-text.visible {
+  filter: none;  /* Remove blur when visible */
+}
